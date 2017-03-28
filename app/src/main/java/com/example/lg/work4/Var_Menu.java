@@ -27,6 +27,7 @@ public class Var_Menu extends AppCompatActivity {
         tv = (TextView)findViewById(R.id.image_title);
         iv_chick = (ImageView)findViewById(R.id.image_chick);
         iv_spa = (ImageView)findViewById(R.id.image_spa);
+        setTitle("메뉴를 눌러보세요");
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -41,10 +42,10 @@ public class Var_Menu extends AppCompatActivity {
                 layout.setBackgroundColor(Color.RED);
                 break;
             case R.id.yellow:
-                layout.setBackgroundColor(Color.BLUE);
+                layout.setBackgroundColor(Color.YELLOW);
                 break;
             case R.id.blue:
-                layout.setBackgroundColor(Color.YELLOW);
+                layout.setBackgroundColor(Color.BLUE);
                 break;
             case R.id.spin:
                 if(iv_chick.getVisibility()==View.VISIBLE)
