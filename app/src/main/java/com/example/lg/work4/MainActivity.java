@@ -9,17 +9,10 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-    Button varmenu,varcal;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        init();
-    }
-
-    void init(){
-        varmenu= (Button)findViewById(R.id.varmenu);
-        varcal = (Button)findViewById(R.id.varcal);
     }
 
     @Override
